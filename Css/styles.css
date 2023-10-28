@@ -50,46 +50,60 @@
 }
 
 
-/* Estilos para la sección de hero */
+/* Estilos para la sección de Quienes somos? */
+
 .hero {
-    background-color:  #F5C6A2;
-    padding: 40px;
+    background-color: #F5C6A2;
     text-align: center;
+    padding: 50px 0;
 }
 
-.hero h2{
-    color: #333; 
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero img
-{
-    width: 200px; 
-    height: 300px;
-    border: 2px solid #007BFF; 
-    margin: 10px; 
-}
-
-.hero h3 {
-    color: #007BFF; 
+.hero h2 {
     font-size: 24px;
 }
-.hero p {
-    color: #666; 
+
+.QuienS {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr) );
+    grid-gap: 2rem;
+    padding: 3rem 0;
+    
+}
+
+.QuienS img {
+    max-width: 200%;
+    height: auto;
+    margin: 10px; 
+}
+.col-1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 4fr));
+    grid-gap: 2rem;
+}
+.feature{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 55px 5px rgba(7, 7, 7, 0.06);
+}
+
+.feature img {
+    max-width: 70%;
+}
+.feature h3 {
     font-size: 18px;
-    margin-top: 10px;
+    color: #007bff;
 }
-/* Estilos para la sección de hero1 */
-.hero1 {
-    background-color:#f2f2f2;
-    padding: 40px;
-    text-align: center;
-}
-.hero h2{
-    color: #333; 
-    font-size: 36px;
-    margin-bottom: 20px;
+
+.feature p {
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 /*H1*/
