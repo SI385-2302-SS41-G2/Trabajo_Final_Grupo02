@@ -133,9 +133,10 @@
 
 /* Estilos para la imagen */
 .Hero1 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
+    margin-left: 200px;
 }
 
 /*her*/
